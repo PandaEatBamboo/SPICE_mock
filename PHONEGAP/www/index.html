@@ -27,16 +27,153 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="WEB/style.css">
+        <link rel="shortcut icon" href="WEB/img/panda.png">
+        <script type="text/javascript" src="WEB/jquery.js"></script>
+        <script type="text/javascript" src="WEB/main.js"></script>
         <title>Hello World</title>
     </head>
     <body>
-        <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+
+        <div id="body">
+
+            <div id="page1">
+                
+                <div class="black_shadow">
+
+                    <img src="WEB/img/logo.png" id="login_Title">
+
+                    <button id="TwitterLoginBtn" onclick="JumpPage2()">
+                        Twitter Login
+                    </button>
+
+                </div>
+
             </div>
+
+            <div id="page2">
+                
+                <div id="main_Ad" onclick="JumpPage3()">
+                    
+                </div>
+
+                <div class="sub_Ad" onclick="JumpPage3()">
+                    
+                </div>
+
+                <div class="sub_Ad" onclick="JumpPage3()">
+                    
+                </div>
+
+                <div class="sub_Ad" onclick="JumpPage3()">
+                    
+                </div>
+
+                <div class="User" onclick="JumpPage3()">
+                    <img src="WEB/img/squere.png" class="squere">
+                </div>
+
+                <div class="User2" onclick="JumpPage3()">
+                    <img src="WEB/img/squere.png" class="squere">
+                </div>
+
+                <div class="User" onclick="JumpPage3()">
+                    <img src="WEB/img/squere.png" class="squere">
+                </div>
+
+                <div class="User2" onclick="JumpPage3()">
+                    <img src="WEB/img/squere.png" class="squere">
+                </div>
+
+                <div class="User" onclick="JumpPage3()">
+                    <img src="WEB/img/squere.png" class="squere">
+                </div>
+
+                <div class="User2" onclick="JumpPage3()">
+                    <img src="WEB/img/squere.png" class="squere">
+                </div>
+
+            </div>
+
+            <div id="page3">
+
+                <div id="page3_topbar">
+                    <img src="WEB/img/back.png" id="page3to2Btn" onclick="BackPage2()">
+                </div>
+                
+                <div id="Movie_box">
+
+                </div>
+
+                <div id="movie_name">
+                    <img src="">
+
+                    <div id="UserName">
+                        
+                    </div>
+                </div>
+
+                <div id="Item_btn_box">
+                    
+                    <button class="item_btn" onclick="selectleft()">COMMENTS</button>
+
+                    <button class="item_btn" onclick="selectright()">BRAND</button>
+
+                </div>
+
+                <div id="Item_bar_box">
+                    <div id="item_bar"></div>
+                </div>
+
+                <div id="Page3_Item_box">
+                    
+                    <div id="Page3_Item1">
+                        
+                    </div>
+                    
+                    <div id="Page3_Item2">
+                        
+                    </div>
+            
+                </div>
+
+            </div>
+
+            <div id="page4">
+                
+                <div id="page4_topbar">
+                    <img src="WEB/img/back.png" id="page4to3Btn" onclick="BackPage2()">
+                </div>
+
+                <div id="ZoomMovie">
+                    
+                </div>
+
+                <div id="MovieComment">
+                    
+                    <div class="CommentBox">
+                        
+                        <div class="UserIcon">
+                            <img src="WEB/img/squere.png" class="squere">
+                        </div>
+
+                        <div class="UserComment">
+                            aaaaaaaaaaaa
+                        </div>
+
+                        <br>
+
+                    </div>
+
+                    <input id="CommentInput">
+                </div>
+
+            </div>
+
         </div>
+
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
