@@ -38,7 +38,7 @@ html,body{
 	left: 20%; 
 }
 
-#TitterLoginBtn{
+#TwitterLoginBtn{
 	width: 60%;
 	height: 65px;
 	font-size: 20px;
@@ -238,7 +238,17 @@ html,body{
 	100%{top: 0%;}
 }
 
+@-moz-keyframes page1to2 {
+	0%{top:100%;}
+	100%{top: 0%;}
+}
+
 @-webkit-keyframes page2to3 {
+	0%{left: 100%;}
+	100%{left: 0%;}
+}
+
+@-moz-keyframes page2to3 {
 	0%{left: 100%;}
 	100%{left: 0%;}
 }
@@ -248,7 +258,17 @@ html,body{
 	100%{left: 100%;}
 }
 
+@-moz-keyframes page3to2 {
+	0%{left: 0%;}
+	100%{left: 100%;}
+}
+
 @-webkit-keyframes page3to4 {
+	0%{left: 100%;}
+	100%{left: 00%;}
+}
+
+@-moz-keyframes page3to4 {
 	0%{left: 100%;}
 	100%{left: 00%;}
 }
@@ -258,7 +278,17 @@ html,body{
 	100%{left: 50%;}
 }
 
+@-moz-keyframes SelectRightBar {
+	0%{left: 0;}
+	100%{left: 50%;}
+}
+
 @-webkit-keyframes SelectLeftBar {
+	0%{left: 50%;}
+	100%{left: 0%;}
+}
+
+@-moz-keyframes SelectLeftBar {
 	0%{left: 50%;}
 	100%{left: 0%;}
 }
@@ -268,7 +298,17 @@ html,body{
 	100%{left: -100%;}
 }
 
+@-moz-keyframes SelectRightBox {
+	0%{left: 0;}
+	100%{left: -100%;}
+}
+
 @-webkit-keyframes SelectLeftBox {
+	0%{left: -100%;}
+	100%{left: 0%;}
+}
+
+@-moz-keyframes SelectLeftBox {
 	0%{left: -100%;}
 	100%{left: 0%;}
 }
