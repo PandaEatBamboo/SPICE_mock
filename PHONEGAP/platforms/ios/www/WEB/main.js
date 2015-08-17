@@ -46,6 +46,8 @@ function JumpPage4 () {
 
 function BackPage2 () {
 	$("#page3").css(page3to2Css);
+	$("#item_bar").css(selectItemBarLeft);
+	$("#Page3_Item_box").css(selectItemBoxLeft);
 }
 
 function selectright () {
