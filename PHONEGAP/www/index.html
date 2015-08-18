@@ -39,6 +39,13 @@
 
         <div id="body">
 
+            <div id="MenuPage">
+                <img src="WEB/img/menu.jpg" id="MenuImg">
+                <div id="MenuBtn" onclick="PopupMenu()">
+                    
+                </div>
+            </div>
+
             <div id="page1">
                 
                 <div class="black_shadow">
@@ -106,21 +113,19 @@
                     <img src="WEB/img/back.png" id="page3to2Btn" onclick="BackPage2()">
                 </div>
                 
-                <video src="WEB/ad.mp4" id="Movie_box" autoplay>
+                <video src="WEB/ad.mp4" id="Movie_box" autoplay onclick="JumpPage4()">
 
                 </video>
 
                 <div id="movie_name">
-                    <img src="">
-
-                    <div id="UserName">
-                        
-                    </div>
+                    <img src="WEB/img/userimage.png" width="100%" height="100%">
                 </div>
 
                 <div id="Item_btn_box">
                     
-                    <button class="item_btn" onclick="selectleft()">COMMENTS</button>
+                    <button class="item_btn" onclick="selectleft()">THIS ITEM</button>
+
+                    <button class="item_btn" onclick="selectcenter()">COMMENTS</button>
 
                     <button class="item_btn" onclick="selectright()">BRAND</button>
 
@@ -132,12 +137,18 @@
 
                 <div id="Page3_Item_scroll_box">
                     <div id="Page3_Item_box">
-                        <div id="Page3_Item1">
+                        <div class="Page3_Item">
+                            <img src="WEB/img/brand.jpg" style="width:100%;">
                         
                         </div>
-                    
-                        <div id="Page3_Item2">
-                            
+
+                        <div class="Page3_Item">
+                            <img src="WEB/img/brand.jpg" style="width:100%;">
+                        
+                        </div>
+
+                        <div class="Page3_Item">
+                            <img src="WEB/img/brand.jpg" style="width:100%;">
                         </div>
                     </div>
                 </div>
@@ -145,6 +156,10 @@
             </div>
 
             <div id="page4">
+            </div>
+
+
+            <!--div id="page4">
                 
                 <div id="page4_topbar">
                     <img src="WEB/img/back.png" id="page4to3Btn" onclick="BackPage2()">
@@ -173,7 +188,7 @@
                     <input id="CommentInput">
                 </div>
 
-            </div>
+            </div!-->
 
         </div>
 

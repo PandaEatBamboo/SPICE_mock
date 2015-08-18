@@ -14,6 +14,34 @@ html,body{
 	position: absolute;
 }
 
+#MenuPage{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0);
+	overflow: scroll;
+	position: absolute;
+	left: -100%;
+	z-index: 4;
+}
+
+#MenuImg{
+	width: calc(100% - 60px);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#MenuBtn{
+	width: 60px;
+	height: 50px;
+	background: #020202;
+	border-radius: 0px 10px 10px 0px;
+	position: absolute;
+	right: 0;
+	bottom: 15%;
+	z-index: 6;
+}
+
 .black_shadow{
 	width: 100%;
 	height: 100%;
@@ -127,6 +155,26 @@ html,body{
 	width: 100%;
 	height: 80px;
 	background: #ff4f8e;
+	position: relative;
+	color: #fff;
+	font-size: 20px;
+}
+
+#UserName{
+	width: calc(100% - 40px);
+	position: absolute;
+	top: 5px;
+	left: 40px;
+	font-size: 18px;
+}
+
+#Tag{
+	width: 95%;
+	text-align: right;
+	position: absolute;
+	bottom: 5px;
+	left: 2.5%;
+	font-size: 18px;
 }
 
 #Item_btn_box{
@@ -136,7 +184,7 @@ html,body{
 }
 
 .item_btn{
-	width: 50%;
+	width: calc(100% / 3);
 	height: 100%;
 	float: left;
 	font-size: 16px;
@@ -152,7 +200,7 @@ html,body{
 }
 
 #item_bar{
-	width: 50%;
+	width: calc(100% / 3);
 	height: 3px;
 	background: #ff4f8e;
 	position: absolute;
@@ -167,27 +215,31 @@ html,body{
 }
 
 #Page3_Item_box{
-	width: 200%;
+	width: 300%;
 	height: 100%;
 	position: absolute;
 	bottom: 0;
 	left: 0;
 }
 
-#Page3_Item1{
-	width: 50%;
+.Page3_Item{
+	width: calc(100% / 3);
 	height: 100%;
 	float: left;
-	background: #fff;
+	overflow: scroll;
 }
 
-#Page3_Item2{
-	width: 50%;
+#page4{
+	width: 100%;
 	height: 100%;
-	float: left;
-	background: #f5f5f5;
+	position: absolute;
+	left: 100%;
+	z-index: 2;
+	background: url(img/video.jpg);
+	background-size: 100% 100%;
 }
 
+/*
 #page4{
 	width: 100%;
 	height: 100%;
@@ -244,9 +296,33 @@ html,body{
 	width: 80%;
 	height: 40px;
 	position: relative;
-}
+}*/
 
 /*animation*/
+@-webkit-keyframes MenuPage{
+	0%{left: -100%;}
+	50%{left:0;}
+	51%{background: rgba(0,0,0,0);left:0;}
+	100%{background: rgba(0,0,0,0.5);left:0;}
+}
+
+@-moz-keyframes MenuPage {
+	0%{left: -100%;}
+	50%{left:0;}
+	51%{background: rgba(0,0,0,0);left:0;}
+	100%{background: rgba(0,0,0,0.5);left:0;}
+}
+
+@-webkit-keyframes Page4MenuPage{
+	0%{left: -100%;}
+	100%{left: calc(-100% + 60px);}
+}
+
+@-moz-keyframes Page4MenuPage {
+	0%{left: -100%;}
+	100%{left: calc(-100% + 60px);}
+}
+
 @-webkit-keyframes page1to2 {
 	0%{top:100%;}
 	100%{top: 0%;}
@@ -287,44 +363,124 @@ html,body{
 	100%{left: 00%;}
 }
 
-@-webkit-keyframes SelectRightBar {
+@-webkit-keyframes SelectL2RBar {
 	0%{left: 0;}
-	100%{left: 50%;}
+	100%{left: calc((100% / 3)*2);}
 }
 
-@-moz-keyframes SelectRightBar {
+@-moz-keyframes SelectL2RBar {
 	0%{left: 0;}
-	100%{left: 50%;}
+	100%{left: calc((100% / 3)*2);}
 }
 
-@-webkit-keyframes SelectLeftBar {
-	0%{left: 50%;}
+@-webkit-keyframes SelectC2RBar {
+	0%{left: calc((100% / 3)*1);}
+	100%{left: calc((100% / 3)*2);}
+}
+
+@-moz-keyframes SelectC2RBar {
+	0%{left: calc((100% / 3)*1);}
+	100%{left: calc((100% / 3)*2)}
+}
+
+@-webkit-keyframes SelectL2CBar {
+	0%{left: 0;}
+	100%{left: calc((100% / 3)*1)}
+}
+
+@-moz-keyframes SelectL2CBar {
+	0%{left: 0;}
+	100%{left: calc((100% / 3)*1);}
+}
+
+@-webkit-keyframes SelectR2CBar {
+	0%{left: calc((100% / 3)*2);}
+	100%{left: calc((100% / 3)*1)}
+}
+
+@-moz-keyframes SelectR2CBar {
+	0%{left: calc((100% / 3)*2);}
+	100%{left: calc((100% / 3)*1);}
+}
+
+@-webkit-keyframes SelectR2LBar {
+	0%{left: calc((100% / 3)*2);}
 	100%{left: 0%;}
 }
 
-@-moz-keyframes SelectLeftBar {
-	0%{left: 50%;}
+@-moz-keyframes SelectR2LBar {
+	0%{left: calc((100% / 3)*2);}
 	100%{left: 0%;}
 }
 
-@-webkit-keyframes SelectRightBox {
+@-webkit-keyframes SelectC2LBar {
+	0%{left: calc((100% / 3)*1);}
+	100%{left: 0%;}
+}
+
+@-moz-keyframes SelectC2LBar {
+	0%{left: calc((100% / 3)*1);}
+	100%{left: 0%;}
+}
+
+@-webkit-keyframes SelectL2RBox {
+	0%{left: 0;}
+	100%{left: -200%;}
+}
+
+@-moz-keyframes SelectL2RBox {
+	0%{left: 0;}
+	100%{left: -200%;}
+}
+
+@-webkit-keyframes SelectL2CBox {
 	0%{left: 0;}
 	100%{left: -100%;}
 }
 
-@-moz-keyframes SelectRightBox {
+@-moz-keyframes SelectL2CBox {
 	0%{left: 0;}
 	100%{left: -100%;}
 }
 
-@-webkit-keyframes SelectLeftBox {
-	0%{left: -100%;}
-	100%{left: 0%;}
+@-webkit-keyframes SelectR2CBox {
+	0%{left: -200%;}
+	100%{left: -100%;}
 }
 
-@-moz-keyframes SelectLeftBox {
+@-moz-keyframes SelectR2CBox {
+	0%{left: -200%;}
+	100%{left: -100%;}
+}
+
+@-webkit-keyframes SelectR2LBox {
+	0%{left: -200%;}
+	100%{left: 0;}
+}
+
+@-moz-keyframes SelectR2LBox {
+	0%{left: -200%;}
+	100%{left: 0;}
+}
+
+@-webkit-keyframes SelectC2RBox {
 	0%{left: -100%;}
-	100%{left: 0%;}
+	100%{left: -200%;}
+}
+
+@-moz-keyframes SelectC2RBox {
+	0%{left: -100%;}
+	100%{left: -200%;}
+}
+
+@-webkit-keyframes SelectC2LBox {
+	0%{left: -100%;}
+	100%{left: 0;}
+}
+
+@-moz-keyframes SelectC2LBox {
+	0%{left: -100%;}
+	100%{left: 0;}
 }
 
 

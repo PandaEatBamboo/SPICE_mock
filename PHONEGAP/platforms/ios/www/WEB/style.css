@@ -136,7 +136,7 @@ html,body{
 }
 
 .item_btn{
-	width: 50%;
+	width: calc(100% / 3);
 	height: 100%;
 	float: left;
 	font-size: 16px;
@@ -152,7 +152,7 @@ html,body{
 }
 
 #item_bar{
-	width: 50%;
+	width: calc(100% / 3);
 	height: 3px;
 	background: #ff4f8e;
 	position: absolute;
@@ -167,25 +167,18 @@ html,body{
 }
 
 #Page3_Item_box{
-	width: 200%;
+	width: 300%;
 	height: 100%;
 	position: absolute;
 	bottom: 0;
 	left: 0;
 }
 
-#Page3_Item1{
-	width: 50%;
+.Page3_Item{
+	width: calc(100% / 3);
 	height: 100%;
 	float: left;
-	background: #fff;
-}
-
-#Page3_Item2{
-	width: 50%;
-	height: 100%;
-	float: left;
-	background: #f5f5f5;
+	overflow: scroll;
 }
 
 #page4{
@@ -287,44 +280,124 @@ html,body{
 	100%{left: 00%;}
 }
 
-@-webkit-keyframes SelectRightBar {
+@-webkit-keyframes SelectL2RBar {
 	0%{left: 0;}
-	100%{left: 50%;}
+	100%{left: calc((100% / 3)*2);}
 }
 
-@-moz-keyframes SelectRightBar {
+@-moz-keyframes SelectL2RBar {
 	0%{left: 0;}
-	100%{left: 50%;}
+	100%{left: calc((100% / 3)*2);}
 }
 
-@-webkit-keyframes SelectLeftBar {
-	0%{left: 50%;}
+@-webkit-keyframes SelectC2RBar {
+	0%{left: calc((100% / 3)*1);}
+	100%{left: calc((100% / 3)*2);}
+}
+
+@-moz-keyframes SelectC2RBar {
+	0%{left: calc((100% / 3)*1);}
+	100%{left: calc((100% / 3)*2)}
+}
+
+@-webkit-keyframes SelectL2CBar {
+	0%{left: 0;}
+	100%{left: calc((100% / 3)*1)}
+}
+
+@-moz-keyframes SelectL2CBar {
+	0%{left: 0;}
+	100%{left: calc((100% / 3)*1);}
+}
+
+@-webkit-keyframes SelectR2CBar {
+	0%{left: calc((100% / 3)*2);}
+	100%{left: calc((100% / 3)*1)}
+}
+
+@-moz-keyframes SelectR2CBar {
+	0%{left: calc((100% / 3)*2);}
+	100%{left: calc((100% / 3)*1);}
+}
+
+@-webkit-keyframes SelectR2LBar {
+	0%{left: calc((100% / 3)*2);}
 	100%{left: 0%;}
 }
 
-@-moz-keyframes SelectLeftBar {
-	0%{left: 50%;}
+@-moz-keyframes SelectR2LBar {
+	0%{left: calc((100% / 3)*2);}
 	100%{left: 0%;}
 }
 
-@-webkit-keyframes SelectRightBox {
+@-webkit-keyframes SelectC2LBar {
+	0%{left: calc((100% / 3)*1);}
+	100%{left: 0%;}
+}
+
+@-moz-keyframes SelectC2LBar {
+	0%{left: calc((100% / 3)*1);}
+	100%{left: 0%;}
+}
+
+@-webkit-keyframes SelectL2RBox {
+	0%{left: 0;}
+	100%{left: -200%;}
+}
+
+@-moz-keyframes SelectL2RBox {
+	0%{left: 0;}
+	100%{left: -200%;}
+}
+
+@-webkit-keyframes SelectL2CBox {
 	0%{left: 0;}
 	100%{left: -100%;}
 }
 
-@-moz-keyframes SelectRightBox {
+@-moz-keyframes SelectL2CBox {
 	0%{left: 0;}
 	100%{left: -100%;}
 }
 
-@-webkit-keyframes SelectLeftBox {
-	0%{left: -100%;}
-	100%{left: 0%;}
+@-webkit-keyframes SelectR2CBox {
+	0%{left: -200%;}
+	100%{left: -100%;}
 }
 
-@-moz-keyframes SelectLeftBox {
+@-moz-keyframes SelectR2CBox {
+	0%{left: -200%;}
+	100%{left: -100%;}
+}
+
+@-webkit-keyframes SelectR2LBox {
+	0%{left: -200%;}
+	100%{left: 0;}
+}
+
+@-moz-keyframes SelectR2LBox {
+	0%{left: -200%;}
+	100%{left: 0;}
+}
+
+@-webkit-keyframes SelectC2RBox {
 	0%{left: -100%;}
-	100%{left: 0%;}
+	100%{left: -200%;}
+}
+
+@-moz-keyframes SelectC2RBox {
+	0%{left: -100%;}
+	100%{left: -200%;}
+}
+
+@-webkit-keyframes SelectC2LBox {
+	0%{left: -100%;}
+	100%{left: 0;}
+}
+
+@-moz-keyframes SelectC2LBox {
+	0%{left: -100%;}
+	100%{left: 0;}
 }
 
 
