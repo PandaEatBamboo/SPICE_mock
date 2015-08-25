@@ -46,8 +46,11 @@ function JumpPage4 () {
 
 function BackPage2 () {
 	$("#page3").css(page3to2Css);
+<<<<<<< HEAD
 	$("#item_bar").css(selectItemBarLeft);
 	$("#Page3_Item_box").css(selectItemBoxLeft);
+=======
+>>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 }
 
 function selectright () {

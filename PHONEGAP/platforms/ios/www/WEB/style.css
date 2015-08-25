@@ -63,6 +63,10 @@ html,body{
 
 #main_Ad{
 	width: 100%;
+<<<<<<< HEAD
+=======
+	height: 180px;
+>>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 	background: #514;
 	box-shadow: 0px 0px 10px #000;
 }
@@ -74,6 +78,10 @@ html,body{
 
 .sub_Ad{
 	width: calc(100% - 20px);
+<<<<<<< HEAD
+=======
+	height: 140px;
+>>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 	margin-top: 10px;
 	margin-left: 10px;
 	box-shadow: 0px 0px 5px #000;
@@ -119,8 +127,12 @@ html,body{
 #Movie_box{
 	width: 100%;
 	height: 250px;
+<<<<<<< HEAD
 	background: #000;
 	vertical-align: bottom;
+=======
+	background: #415;
+>>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 }
 
 #movie_name{
@@ -152,7 +164,11 @@ html,body{
 }
 
 #item_bar{
+<<<<<<< HEAD
 	width: calc(100% / 3);
+=======
+	width: 50%;
+>>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 	height: 3px;
 	background: #ff4f8e;
 	position: absolute;
@@ -167,18 +183,38 @@ html,body{
 }
 
 #Page3_Item_box{
+<<<<<<< HEAD
 	width: 300%;
 	height: 100%;
+=======
+	width: 200%;
+	height: calc(100% - 383px);
+>>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 	position: absolute;
 	bottom: 0;
 	left: 0;
 }
 
+<<<<<<< HEAD
 .Page3_Item{
 	width: calc(100% / 3);
 	height: 100%;
 	float: left;
 	overflow: scroll;
+=======
+#Page3_Item1{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background: #fff;
+}
+
+#Page3_Item2{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background: #eee;
+>>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 }
 
 #page4{

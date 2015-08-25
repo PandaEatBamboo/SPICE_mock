@@ -63,6 +63,7 @@ html,body{
 
 #main_Ad{
 	width: 100%;
+<<<<<<< HEAD
 	background: #514;
 	box-shadow: 0px 0px 10px #000;
 }
@@ -70,29 +71,54 @@ html,body{
 .page2_img{
 	width: 100%;
 	vertical-align: bottom;
+=======
+	height: 240px;
+	background: #514;
+>>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 }
 
 .sub_Ad{
 	width: calc(100% - 20px);
+<<<<<<< HEAD
 	margin-top: 10px;
 	margin-left: 10px;
 	box-shadow: 0px 0px 5px #000;
+=======
+	height: 200px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background: #551;
+>>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 }
 
 .User{
 	width: calc(50% - 15px);
+<<<<<<< HEAD
 	margin-top: 10px;
 	margin-left: 10px;
 	float: left;
 	box-shadow: 0px 0px 5px #000;
+=======
+	background: #551;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+>>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 }
 
 .User2{
 	width: calc(50% - 15px);
+<<<<<<< HEAD
 	margin-top: 10px;
 	margin-left: 10px;
 	float: left;
 	box-shadow: 0px 0px 5px #000;
+=======
+	background: #551;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+>>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 }
 
 .squere{
@@ -110,7 +136,11 @@ html,body{
 }
 
 #page3to2Btn{
+<<<<<<< HEAD
 	width: 50px;
+=======
+	width: 70px;
+>>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -118,20 +148,33 @@ html,body{
 
 #Movie_box{
 	width: 100%;
+<<<<<<< HEAD
 	height: 250px;
 	background: #000;
 	vertical-align: bottom;
+=======
+	height: 320px;
+	background: #415;
+>>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 }
 
 #movie_name{
 	width: 100%;
+<<<<<<< HEAD
 	height: 80px;
+=======
+	height: 150px;
+>>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 	background: #ff4f8e;
 }
 
 #Item_btn_box{
 	width: 100%;
+<<<<<<< HEAD
 	height: 50px;
+=======
+	height: 80px;
+>>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 	background: #111;
 }
 
@@ -139,7 +182,11 @@ html,body{
 	width: 50%;
 	height: 100%;
 	float: left;
+<<<<<<< HEAD
 	font-size: 16px;
+=======
+	font-size: 20px;
+>>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 	border: none;
 	background: 0;
 	color: #fff;
@@ -147,18 +194,27 @@ html,body{
 
 #Item_bar_box{
 	width: 100%;
+<<<<<<< HEAD
 	height: 3px;
+=======
+	height: 5px;
+>>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 	background: #111;
 }
 
 #item_bar{
 	width: 50%;
+<<<<<<< HEAD
 	height: 3px;
+=======
+	height: 5px;
+>>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 	background: #ff4f8e;
 	position: absolute;
 	left: 0;
 }
 
+<<<<<<< HEAD
 #Page3_Item_scroll_box{
 	width: 100%;
 	height: calc(100% - 383px);
@@ -169,6 +225,11 @@ html,body{
 #Page3_Item_box{
 	width: 200%;
 	height: 100%;
+=======
+#Page3_Item_box{
+	width: 200%;
+	height: calc(100% - 555px);
+>>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -178,14 +239,20 @@ html,body{
 	width: 50%;
 	height: 100%;
 	float: left;
+<<<<<<< HEAD
 	background: #fff;
+=======
+>>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 }
 
 #Page3_Item2{
 	width: 50%;
 	height: 100%;
 	float: left;
+<<<<<<< HEAD
 	background: #f5f5f5;
+=======
+>>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 }
 
 #page4{
