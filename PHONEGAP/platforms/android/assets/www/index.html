@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="WEB/style.css">
+        <link rel="shortcut icon" href="WEB/img/panda.png">
+        <script type="text/javascript" src="WEB/jquery.js"></script>
+        <script type="text/javascript" src="WEB/main.js"></script>
+        <title>SPICE</title>
+    </head>
+    <body>
+
+        <div id="body">
+
+            <div id="page1">
+                
+                <div class="black_shadow">
+
+                    <img src="WEB/img/logo.png" id="login_Title">
+
+                    <button id="TwitterLoginBtn" onclick="JumpPage2()">
+                        Twitter Login
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div id="page2">
+
+                <video src="WEB/ad.mp4" autoplay id="main_Ad"  onclick="JumpPage3()">
+                </video>
+
+                <div class="sub_Ad" onclick="JumpPage3()">
+                    <img src="WEB/img/sub.jpg" class="page2_img">
+                </div>
+
+                <div class="sub_Ad" onclick="JumpPage3()">
+                    <img src="WEB/img/sub2.jpg" class="page2_img">
+                    
+                </div>
+
+                <div class="sub_Ad" onclick="JumpPage3()">
+                    <img src="WEB/img/sub3.jpg" class="page2_img">
+                    
+                </div>
+
+                <div class="User" onclick="JumpPage3()">
+                    <img src="WEB/img/model1.jpg" class="page2_img">
+                </div>
+
+                <div class="User2" onclick="JumpPage3()">
+                    <img src="WEB/img/model2.jpg" class="page2_img">
+                </div>
+
+                <div class="User" onclick="JumpPage3()">
+                    <img src="WEB/img/model3.jpg" class="page2_img">
+                </div>
+
+                <div class="User2" onclick="JumpPage3()">
+                    <img src="WEB/img/model4.jpg" class="page2_img">
+                </div>
+
+                <div class="User" onclick="JumpPage3()">
+                    <img src="WEB/img/model5.jpg" class="page2_img">
+                </div>
+
+                <div class="User2" onclick="JumpPage3()">
+                    <img src="WEB/img/model6.jpg" class="page2_img">
+                </div>
+
+                <p></p>
+
+            </div>
+
+            <div id="page3">
+
+                <div id="page3_topbar">
+                    <img src="WEB/img/back.png" id="page3to2Btn" onclick="BackPage2()">
+                </div>
+                
+                <video src="WEB/ad.mp4" id="Movie_box" autoplay>
+
+                </video>
+
+                <div id="movie_name">
+                    <img src="">
+
+                    <div id="UserName">
+                        
+                    </div>
+                </div>
+
+                <div id="Item_btn_box">
+                    
+                    <button class="item_btn" onclick="selectleft()">THIS ITEM</button>
+
+                    <button class="item_btn" onclick="selectcenter()">COMMENTS</button>
+
+                    <button class="item_btn" onclick="selectright()">BRAND</button>
+
+                </div>
+
+                <div id="Item_bar_box">
+                    <div id="item_bar"></div>
+                </div>
+
+                <div id="Page3_Item_scroll_box">
+                    <div id="Page3_Item_box">
+                        <div class="Page3_Item" style="background: #fff">
+                        
+                        </div>
+
+                        <div class="Page3_Item" style="background: #eee">
+                        
+                        </div>
+
+                        <div class="Page3_Item">
+                            <img src="WEB/img/brand.jpg" style="width:100%;">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="page4">
+                
+                <div id="page4_topbar">
+                    <img src="WEB/img/back.png" id="page4to3Btn" onclick="BackPage2()">
+                </div>
+
+                <div id="ZoomMovie">
+                    
+                </div>
+
+                <div id="MovieComment">
+                    
+                    <div class="CommentBox">
+                        
+                        <div class="UserIcon">
+                            <img src="WEB/img/squere.png" class="squere">
+                        </div>
+
+                        <div class="UserComment">
+                            aaaaaaaaaaaa
+                        </div>
+
+                        <br>
+
+                    </div>
+
+                    <input id="CommentInput">
+                </div>
+
+            </div>
+
+        </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
