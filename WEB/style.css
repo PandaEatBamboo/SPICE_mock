@@ -263,16 +263,6 @@ html,body{
 	100%{left: 100%;}
 }
 
-@-webkit-keyframes page3to4 {
-	0%{left: 100%;}
-	100%{left: 00%;}
-}
-
-@-moz-keyframes page3to4 {
-	0%{left: 100%;}
-	100%{left: 00%;}
-}
-
 @-webkit-keyframes SelectRightBar {
 	0%{left: 0;}
 	100%{left: 50%;}
