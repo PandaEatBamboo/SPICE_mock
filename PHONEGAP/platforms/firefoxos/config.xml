@@ -4,20 +4,12 @@
         <icon height="128" src="icon/icon-128.png" width="128" />
         <icon height="60" src="icon/icon-60.png" width="60" />
     </platform>
-<<<<<<< HEAD
     <name>SPICE</name>
-=======
-    <name>Hello World</name>
->>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
     <description>
         Hello World sample application that responds to the deviceready event.
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
-<<<<<<< HEAD
         SPICE Team
-=======
-        PhoneGap Team
->>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />

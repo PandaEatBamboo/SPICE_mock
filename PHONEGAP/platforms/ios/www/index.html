@@ -40,147 +40,87 @@
         <div id="body">
 
             <div id="page1">
-                
-                <div class="black_shadow">
 
-                    <img src="WEB/img/logo.png" id="login_Title">
-
-                    <button id="TwitterLoginBtn" onclick="JumpPage2()">
-                        Twitter Login
-                    </button>
-
-                </div>
+                <button id="TwitterLoginBtn" onclick="JumpPage2()">
+                    Start!
+                </button>
 
             </div>
 
             <div id="page2">
 
-                <video src="WEB/ad.mp4" autoplay id="main_Ad"  onclick="JumpPage3()">
-                </video>
+                <div id="Page2Content">
 
-                <div class="sub_Ad" onclick="JumpPage3()">
-                    <img src="WEB/img/sub.jpg" class="page2_img">
-                </div>
+                    <div id="Page2Title">
+                        <img src="WEB/img/logo.jpg" id="Page2Logo">
+                    </div>
 
-                <div class="sub_Ad" onclick="JumpPage3()">
-                    <img src="WEB/img/sub2.jpg" class="page2_img">
+                    <div class="Page2Header">
+
+                        <img src="WEB/img/Page2Header1.jpg" class="Page2HeaderText">
+                        
+                    </div>
+
+                    <video src="WEB/ad.mp4" autoplay id="MainAd" onclick="JumpPage2to3()">
+                        
+                    </video>
+
+                    <div class="Page2Header">
+
+                        <img src="WEB/img/Page2Header2.jpg" class="Page2HeaderText">
+                        
+                    </div>
+
+                    <div id="SubAd" onclick="JumpPage2to3()">
+                        
+                    </div>
+
+                    <div class="Page2Header">
+
+                        <img src="WEB/img/Page2Header3.jpg" class="Page2HeaderText">
+                        
+                    </div>
+
+                    <div class="Page2Model" onclick="JumpPage2to3()">
+                        <img src="WEB/img/model1.jpg" class="ModelImg">
+                    </div>
+
+                    <div class="Page2Model" onclick="JumpPage2to3()">
+                        <img src="WEB/img/model2.jpg" class="ModelImg">
+                    </div>
+
+                    <div class="Page2Model" onclick="JumpPage2to3()">
+                        <img src="WEB/img/model3.jpg" class="ModelImg">
+                    </div>
+
+                    <div class="Page2Model" onclick="JumpPage2to3()">
+                        <img src="WEB/img/model4.jpg" class="ModelImg">
+                    </div>
+
+                    <div class="Page2Model" onclick="JumpPage2to3()">
+                        <img src="WEB/img/model5.jpg" class="ModelImg">
+                    </div>
+
+                    <div class="Page2Model" onclick="JumpPage2to3()">
+                        <img src="WEB/img/model6.jpg" class="ModelImg">
+                    </div>
                     
                 </div>
 
-                <div class="sub_Ad" onclick="JumpPage3()">
-                    <img src="WEB/img/sub3.jpg" class="page2_img">
-                    
+                <div id="Page2MenuBar">
+                    <img src="WEB/img/item1.jpg" class="Page2MenuItem">
+                    <img src="WEB/img/item2.jpg" class="Page2MenuItem">
+                    <img src="WEB/img/item3.jpg" class="Page2MenuItem">
+                    <img src="WEB/img/item4.jpg" class="Page2MenuItem">
+                    <img src="WEB/img/item5.jpg" class="Page2MenuItem">
                 </div>
-
-                <div class="User" onclick="JumpPage3()">
-                    <img src="WEB/img/model1.jpg" class="page2_img">
-                </div>
-
-                <div class="User2" onclick="JumpPage3()">
-                    <img src="WEB/img/model2.jpg" class="page2_img">
-                </div>
-
-                <div class="User" onclick="JumpPage3()">
-                    <img src="WEB/img/model3.jpg" class="page2_img">
-                </div>
-
-                <div class="User2" onclick="JumpPage3()">
-                    <img src="WEB/img/model4.jpg" class="page2_img">
-                </div>
-
-                <div class="User" onclick="JumpPage3()">
-                    <img src="WEB/img/model5.jpg" class="page2_img">
-                </div>
-
-                <div class="User2" onclick="JumpPage3()">
-                    <img src="WEB/img/model6.jpg" class="page2_img">
-                </div>
-
-                <p></p>
 
             </div>
 
             <div id="page3">
+                <iframe src="http://daichidayoooo.herokuapp.com" id="Page3Movie"></iframe>
 
-                <div id="page3_topbar">
-                    <img src="WEB/img/back.png" id="page3to2Btn" onclick="BackPage2()">
-                </div>
-                
-                <video src="WEB/ad.mp4" id="Movie_box" autoplay>
-
-                </video>
-
-                <div id="movie_name">
-                    <img src="">
-
-                    <div id="UserName">
-                        
-                    </div>
-                </div>
-
-                <div id="Item_btn_box">
-                    
-                    <button class="item_btn" onclick="selectleft()">THIS ITEM</button>
-
-                    <button class="item_btn" onclick="selectcenter()">COMMENTS</button>
-
-                    <button class="item_btn" onclick="selectright()">BRAND</button>
-
-                </div>
-
-                <div id="Item_bar_box">
-                    <div id="item_bar"></div>
-                </div>
-
-                <div id="Page3_Item_scroll_box">
-                    <div id="Page3_Item_box">
-                        <div class="Page3_Item">
-                            <img src="WEB/img/brand.jpg" style="width:100%;">
-                        
-                        </div>
-
-                        <div class="Page3_Item">
-                            <img src="WEB/img/brand.jpg" style="width:100%;">
-                        
-                        </div>
-
-                        <div class="Page3_Item">
-                            <img src="WEB/img/brand.jpg" style="width:100%;">
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div id="page4">
-                
-                <div id="page4_topbar">
-                    <img src="WEB/img/back.png" id="page4to3Btn" onclick="BackPage2()">
-                </div>
-
-                <div id="ZoomMovie">
-                    
-                </div>
-
-                <div id="MovieComment">
-                    
-                    <div class="CommentBox">
-                        
-                        <div class="UserIcon">
-                            <img src="WEB/img/squere.png" class="squere">
-                        </div>
-
-                        <div class="UserComment">
-                            aaaaaaaaaaaa
-                        </div>
-
-                        <br>
-
-                    </div>
-
-                    <input id="CommentInput">
-                </div>
-
+                <img src="WEB/img/popup1.jpg" id="Popup" onclick="PopupPage()">
             </div>
 
         </div>

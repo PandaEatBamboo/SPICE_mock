@@ -14,43 +14,30 @@ html,body{
 	position: absolute;
 }
 
-.black_shadow{
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,0.6);
-}
-
 #page1{
 	width: 100%;
 	height: 100%;
-	background: url(img/login_back.jpg);
-	background-size: auto 100%;
+	background: url(img/page1.jpg);
+	background-size: 100% 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
 }
 
-#login_Title{
-	width: 60%;
-	text-align: center;
-	position: absolute;
-	top: 20%;
-	left: 20%; 
-}
-
 #TwitterLoginBtn{
-	width: 60%;
+	width: 70%;
 	height: 65px;
-	font-size: 20px;
+	font-size: 35px;
 	color: #fff;
-	border: #fff solid 3px;
+	border: #fff solid 1px;
 	background: 0;
 	position: absolute;
-	bottom: 25%;
-	left: 20%;
-	font-family: 'Martel', serif;
+	bottom: 18%;
+	left: 15%;
+	letter-spacing: 2px;
 }
 
+/*page2*/
 #page2{
 	width: 100%;
 	height: 100%;
@@ -61,259 +48,101 @@ html,body{
 	z-index: 1;
 }
 
-#main_Ad{
+#Page2Content{
 	width: 100%;
-<<<<<<< HEAD
-	background: #514;
-	box-shadow: 0px 0px 10px #000;
+	height: calc(100% - 50px);
+	overflow: scroll;
+	position: relative;
 }
 
-.page2_img{
+#Page2Title{
+	width: 100%;
+	height: 50px;
+	border-bottom: 3px solid #e9e9e9;
+	position: relative;
+	text-align: center;
+}
+
+#Page2Logo{
+	height: 80%;
+	position: relative;
+	top: 10%;
+}
+
+.Page2Header{
+	width: 100%;
+	height: 40px;
+	position: relative;
+	text-align: center;
+}
+
+.Page2HeaderText{
+	height: 50%;
+	position: relative;
+	top: 25%;
+}
+
+#MainAd{
+	width: 100%;
+	height: 250px;
+	background: #333;
+}
+
+#SubAd{
+	width: 100%;
+	height: 250px;
+	background: url(img/sub3.jpg);
+	background-size: cover;
+}
+
+.Page2Model{
+	width: 50%;
+	float: left;
+	position: relative;
+}
+
+.ModelImg{
 	width: 100%;
 	vertical-align: bottom;
-=======
-	height: 240px;
-	background: #514;
->>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
 }
 
-.sub_Ad{
-	width: calc(100% - 20px);
-<<<<<<< HEAD
-	margin-top: 10px;
-	margin-left: 10px;
-	box-shadow: 0px 0px 5px #000;
-=======
-	height: 200px;
-	margin-top: 10px;
-	margin-left: 10px;
-	background: #551;
->>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
-}
-
-.User{
-	width: calc(50% - 15px);
-<<<<<<< HEAD
-	margin-top: 10px;
-	margin-left: 10px;
-	float: left;
-	box-shadow: 0px 0px 5px #000;
-=======
-	background: #551;
-	margin-top: 10px;
-	margin-left: 10px;
-	float: left;
->>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
-}
-
-.User2{
-	width: calc(50% - 15px);
-<<<<<<< HEAD
-	margin-top: 10px;
-	margin-left: 10px;
-	float: left;
-	box-shadow: 0px 0px 5px #000;
-=======
-	background: #551;
-	margin-top: 10px;
-	margin-left: 10px;
-	float: left;
->>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
-}
-
-.squere{
+#Page2MenuBar{
 	width: 100%;
+	height: 50px;
+}
 
+.Page2MenuItem{
+	width: 20%;
+	height: 50px;
+	float: left;
 }
 
 #page3{
 	width: 100%;
 	height: 100%;
-	background: #fff;
 	position: absolute;
 	left: 100%;
+	top: 0;
 	z-index: 1;
-}
-
-#page3to2Btn{
-<<<<<<< HEAD
-	width: 50px;
-=======
-	width: 70px;
->>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-#Movie_box{
-	width: 100%;
-<<<<<<< HEAD
-	height: 250px;
-	background: #000;
-	vertical-align: bottom;
-=======
-	height: 320px;
-	background: #415;
->>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
-}
-
-#movie_name{
-	width: 100%;
-<<<<<<< HEAD
-	height: 80px;
-=======
-	height: 150px;
->>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
-	background: #ff4f8e;
-}
-
-#Item_btn_box{
-	width: 100%;
-<<<<<<< HEAD
-	height: 50px;
-=======
-	height: 80px;
->>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
-	background: #111;
-}
-
-.item_btn{
-	width: 50%;
-	height: 100%;
-	float: left;
-<<<<<<< HEAD
-	font-size: 16px;
-=======
-	font-size: 20px;
->>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
-	border: none;
-	background: 0;
-	color: #fff;
-}
-
-#Item_bar_box{
-	width: 100%;
-<<<<<<< HEAD
-	height: 3px;
-=======
-	height: 5px;
->>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
-	background: #111;
-}
-
-#item_bar{
-	width: 50%;
-<<<<<<< HEAD
-	height: 3px;
-=======
-	height: 5px;
->>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
-	background: #ff4f8e;
-	position: absolute;
-	left: 0;
-}
-
-<<<<<<< HEAD
-#Page3_Item_scroll_box{
-	width: 100%;
-	height: calc(100% - 383px);
-	position: relative;
-	overflow-x: hidden
-}
-
-#Page3_Item_box{
-	width: 200%;
-	height: 100%;
-=======
-#Page3_Item_box{
-	width: 200%;
-	height: calc(100% - 555px);
->>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
-	position: absolute;
-	bottom: 0;
-	left: 0;
-}
-
-#Page3_Item1{
-	width: 50%;
-	height: 100%;
-	float: left;
-<<<<<<< HEAD
 	background: #fff;
-=======
->>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
+	overflow: hidden;
 }
 
-#Page3_Item2{
-	width: 50%;
-	height: 100%;
-	float: left;
-<<<<<<< HEAD
-	background: #f5f5f5;
-=======
->>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
-}
-
-#page4{
+#Page3Movie{
 	width: 100%;
-	height: 100%;
-	position: relative;
-	position: absolute;
-	left: 100%;
-	z-index: 2;
-	background: #000;
+	height: calc(100% - 30px);
+	border:none;
 }
 
-#ZoomMovie{
+#Popup{
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-#MovieComment{
-	width: 90%;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	z-index: 3;
-}
-
-.CommentBox{
-	width: 100%;
-	background: #555;
-	position: relative;
-}
-
-.UserIcon{
-	width: 40px;
-	background: #aaa;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: 10px;
-	float: left;
-}
-
-.UserComment{
-	background: #fff;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: 10px;
-	border-radius: 5px;
-	padding: 8px;
-	font-size: 20px;
-	float: left;
-}
-
-#CommentInput{
-	width: 80%;
-	height: 40px;
-	position: relative;
+	top: calc(100% - 30px);
 }
 
 /*animation*/
+
 @-webkit-keyframes page1to2 {
 	0%{top:100%;}
 	100%{top: 0%;}
@@ -325,75 +154,24 @@ html,body{
 }
 
 @-webkit-keyframes page2to3 {
-	0%{left: 100%;}
+	0%{left:100%;}
 	100%{left: 0%;}
 }
 
 @-moz-keyframes page2to3 {
-	0%{left: 100%;}
+	0%{left:100%;}
 	100%{left: 0%;}
 }
 
-@-webkit-keyframes page3to2 {
-	0%{left: 0%;}
-	100%{left: 100%;}
+@-webkit-keyframes PopupPage {
+	0%{top: calc(100% - 30px);}
+	100%{top: 0%;}
 }
 
-@-moz-keyframes page3to2 {
-	0%{left: 0%;}
-	100%{left: 100%;}
+@-moz-keyframes PopupPage {
+	0%{top: calc(100% - 30px);}
+	100%{top: 0%;}
 }
-
-@-webkit-keyframes page3to4 {
-	0%{left: 100%;}
-	100%{left: 00%;}
-}
-
-@-moz-keyframes page3to4 {
-	0%{left: 100%;}
-	100%{left: 00%;}
-}
-
-@-webkit-keyframes SelectRightBar {
-	0%{left: 0;}
-	100%{left: 50%;}
-}
-
-@-moz-keyframes SelectRightBar {
-	0%{left: 0;}
-	100%{left: 50%;}
-}
-
-@-webkit-keyframes SelectLeftBar {
-	0%{left: 50%;}
-	100%{left: 0%;}
-}
-
-@-moz-keyframes SelectLeftBar {
-	0%{left: 50%;}
-	100%{left: 0%;}
-}
-
-@-webkit-keyframes SelectRightBox {
-	0%{left: 0;}
-	100%{left: -100%;}
-}
-
-@-moz-keyframes SelectRightBox {
-	0%{left: 0;}
-	100%{left: -100%;}
-}
-
-@-webkit-keyframes SelectLeftBox {
-	0%{left: -100%;}
-	100%{left: 0%;}
-}
-
-@-moz-keyframes SelectLeftBox {
-	0%{left: -100%;}
-	100%{left: 0%;}
-}
-
 
 
 /*Load*/

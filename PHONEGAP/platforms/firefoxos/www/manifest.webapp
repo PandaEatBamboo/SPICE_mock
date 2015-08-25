@@ -4,17 +4,10 @@
         "*"
     ],
     "version": "1.0.0",
-<<<<<<< HEAD
     "name": "SPICE",
     "description": "Hello World sample application that responds to the deviceready event.",
     "developer": {
         "name": "SPICE Team",
-=======
-    "name": "Hello World",
-    "description": "Hello World sample application that responds to the deviceready event.",
-    "developer": {
-        "name": "PhoneGap Team",
->>>>>>> 7762bc7cdbafc653061a3f460f04d49f9f69860a
         "url": "http://phonegap.com"
     },
     "fullscreen": "true",
